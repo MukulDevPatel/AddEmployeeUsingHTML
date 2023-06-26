@@ -187,3 +187,17 @@ error-output{
         align-items: flex-start;
     }
 }
+/* UC7 */
+
+.submitButton:hover{
+    background-color: rgb(81, 145, 81);
+    color: black;
+}
+.cancelButton:hover{
+    background-color: rgb(178, 69, 69);
+    color: black;
+}
+.resetButton:hover{
+    background-color: rgb(226, 226, 10);
+    color: black;
+}
