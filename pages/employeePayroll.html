@@ -168,6 +168,15 @@
             </div>
         </div>
     </form>
+    <!-- UC8 -->
+    <script>
+        var salary = document.querySelector("#salary");
+        var output = document.querySelector(".salary-output-text");
+        output.textContent = salary.value;
+        salary.addEventListener('input',function(){
+          output.textContent = salary.value;
+        });
+    </script>
     </div>
 </body>
 </html>
